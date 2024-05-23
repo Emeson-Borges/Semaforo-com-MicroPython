@@ -1,16 +1,16 @@
-Componentes Necessários:
+# Componentes Necessários:
 
-ESP32.
-LEDs: Vermelho, Amarelo e Verde.
-Resistores (220Ω ou valor similar).
-Protoboard e Jumpers.
+- ESP32.
+- LEDs: Vermelho, Amarelo e Verde.
+- Resistores (220Ω ou valor similar).
+- Protoboard e Jumpers.
 
-Conexões:
+## Conexões:
 LED Vermelho: Conectado ao GPIO 25 através de um resistor.
 LED Amarelo: Conectado ao GPIO 26 através de um resistor.
 LED Verde: Conectado ao GPIO 27 através de um resistor.
 
-Montagem do Circuito:
+## Montagem do Circuito:
 
 LED Vermelho:
 Conecte o cátodo (perna mais curta) ao GND.
@@ -27,7 +27,7 @@ Conecte o cátodo ao GND.
 Conecte o anodo a um dos terminais do resistor.
 Conecte o outro terminal do resistor ao GPIO 27.
 
-Esquema de Ligação
+## Esquema de Ligação
 
 LED Vermelho:
   Anodo (perna longa) -> Resistor -> GPIO 25
@@ -43,7 +43,7 @@ LED Verde:
 
   -----------------------------------------------------------
 
-  Explicação do Código:
+# Explicação do Código:
 Importações: As classes Pin e sleep das bibliotecas machine e time, respectivamente, são importadas.
 
 Configuração dos Pinos: Os pinos GPIO 25, 26 e 27 são configurados como saídas para os LEDs vermelho, amarelo e verde.
